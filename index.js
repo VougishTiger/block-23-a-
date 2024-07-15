@@ -28,6 +28,7 @@ const renderPuppies= ()=> {
       main.innerHTML=`
        <h1>${puppy.name}</h1>
        <h2>${puppy.breed}</h2>
+       <h2>${puppy.status}</h2>
        <button>Back</button>`
        const button= document.querySelector(`button`);
        button.addEventListener(`click`, (event)=>{
